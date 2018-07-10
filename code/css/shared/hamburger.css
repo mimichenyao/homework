@@ -1,0 +1,57 @@
+.hamburger-button {
+	display: block;
+	margin: 5px 0 0 5px;
+	padding: 3px 0 3px 5px;
+	border: none;
+	outline-color: white;
+	background-color: white;
+}
+
+.hamburger-button span {
+	display: block;
+	width: 22px;
+	height: 2px;
+	margin-top: 4px;
+	border-radius: 1px;
+	background-color: black;
+}
+
+.hamburger-button span:first-child {
+	margin-top: 0;
+}
+
+.hamburger-menu {
+	display: block;
+	max-height: 0;
+	margin: 0;
+	padding-left: 0;
+	overflow: hidden;
+	list-style: none;
+	text-align: center;
+	transition: max-height 0.5s ease-out;
+}
+
+.hamburger-menu.open {
+	max-height: 400px;
+	transition: max-height 0.5s ease-in;
+}
+
+.cart .hamburger-menu.open,
+.checkout .hamburger-menu.open,
+.looks .hamburger-menu.open,
+.product .hamburger-menu.open {
+	max-height: 100px;
+	transition: max-height 0.3s ease-in;
+}
+
+.hamburger-menu li {
+	margin: 20px 0;
+	float: none;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.hamburger-menu li a {
+	display: block;
+	text-decoration: none;
+}

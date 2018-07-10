@@ -1,0 +1,11 @@
+.get-started label {
+	float: left;
+}
+
+.get-started .row:nth-child(3) {
+	padding: 20px 0;
+}
+
+.thanks .appointment {
+	font-weight: bold;
+}

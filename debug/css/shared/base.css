@@ -1,0 +1,33 @@
+a {
+	color: #333;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: 'museo sans', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.btn-primary {
+	background-color: #f2987e;
+	border: none;
+	padding: 12px 30px;
+	text-transform: uppercase;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+section {
+	text-align: center;
+}

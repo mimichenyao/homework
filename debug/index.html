@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" class="bh-id-viewport">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+
+    <title>Allume</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/shared/base.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div class="content-container">
+	
+		<section class="bh-id-intro intro hide">
+
+			<h1>A Personal Stylist, Just For You</h1>
+			
+            <button class="btn btn-primary bh-id-get-started-btn">
+		        <span class="bh-id-button-text">Get Started</span> <span class="loader"></span>
+            </button>
+			
+		</section>
+		
+		<section class="bh-id-get-started get-started hide">
+
+			<h1>Let Us Get to Know You</h1>
+			
+			<div class="row">
+				<div class="col-md-offset-2 col-md-4">
+					
+					<label>First Name</label>
+					<input type="text" class="form-control bh-id-first-name" maxlength="40" />
+					
+				</div>
+				<div class="col-md-4">
+					
+					<label>Last Name</label>
+					<input type="text" class="form-control bh-id-last-name" maxlength="40" />
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-2 col-md-4">
+
+					<label>Cell Phone</label>
+					<input type="text" class="form-control bh-id-phone phone" maxlength="20" />
+					
+				</div>
+				<div class="col-md-4 bh-id-email-container">
+					
+					<label>Email</label>
+					<input type="text" class="form-control bh-id-email" maxlength="80" />
+					
+				</div>				
+			</div>
+			
+            <button class="btn btn-primary bh-id-next-btn disabled">
+		        <span class="bh-id-button-text">Next</span> <span class="loader"></span>
+            </button>
+            
+            <p class="bh-id-error error"></p>
+
+		</section>		
+		
+		<section class="bh-id-thanks thanks hide">
+
+			<h1>Thank You</h1>
+
+			<p>Congratulations <span class="bh-id-name"></span>! Your appointment will be at <span class="bh-id-appointment appointment"></span>.</p>
+
+		</section>
+
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/lib/moment.js"></script>
+	<script type="text/javascript" src="js/lib/moment-timezone-with-data-2012-2022.js"></script>
+
+	<script type="text/javascript" src="js/shared/BH.js"></script>
+	<script type="text/javascript" src="js/shared/System.js"></script>
+	<script type="text/javascript" src="js/shared/Hash.js"></script>
+	<script type="text/javascript" src="js/shared/Button.js"></script>
+	<script type="text/javascript" src="js/shared/BaseCompositeInput.js"></script>
+	<script type="text/javascript" src="js/shared/Validation.js"></script>
+	<script type="text/javascript" src="js/shared/TextInput.js"></script>
+	<script type="text/javascript" src="js/shared/EmailInput.js"></script>
+
+	<script type="text/javascript" src="js/services/StylingService.js"></script>
+
+	<script type="text/javascript" src="js/app/Intro.js"></script>
+	<script type="text/javascript" src="js/app/GetStarted.js"></script>
+	<script type="text/javascript" src="js/app/Thanks.js"></script>
+
+	<script type="text/javascript" src="js/Index.js"></script>
+
+</body>
+</html>
+
