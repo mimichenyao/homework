@@ -1,0 +1,38 @@
+h1 {
+  font-size: 20pt;
+}
+
+.how-it-works, .how-images, .she-found-me-image {
+  padding-top: 40px;
+}
+
+.how-1, .lookbook-iphone, .how-3 {
+  display: inline-block;
+  width: 33%;
+}
+
+.how-captions {
+  padding-left: 10px;
+}
+
+.client-testimonial {
+  /* background-color: green; */
+  width: 100%;
+  height: 700px;
+}
+
+.client-testimonial-left {
+  float: left;
+  padding-left: 100px;
+}
+
+.client-testimonial-right {
+  float: right;
+  padding-right: 100px;
+}
+
+.client-testimonial-left, .client-testimonial-right {
+  display: inline-block;
+  width: 50%;
+  padding-top: 90px;
+}
